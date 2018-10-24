@@ -12,7 +12,8 @@ namespace LinqExamples
         static void Main(string[] args)
         {
 
-            Example_1.Basic();
+            //Example_1.Basic();
+            Example_2.Basic();
 
             Console.ReadLine();
         }
