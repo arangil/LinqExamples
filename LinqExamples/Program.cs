@@ -11,6 +11,7 @@ namespace LinqExamples
     {
         static void Main(string[] args)
         {
+
             //Introduction to basic Linq statement
             //Example_1.Tutorial();
 
@@ -18,7 +19,13 @@ namespace LinqExamples
             //Example_2.Tutorial();
 
             //Shows the first use of linq query with select statement in the query
-            Example_3.Tutorial();
+            //Example_3.Tutorial();
+
+            //Shows reading data from csv file
+            //Example_4.Tutorial();
+
+            //Shows reading data from csv file
+            Example_5.Tutorial();
 
             Console.ReadLine();
         }

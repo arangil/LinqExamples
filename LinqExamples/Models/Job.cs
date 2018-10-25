@@ -9,6 +9,7 @@ namespace LinqExamples.Models
     class Job
     {
         public string Title { get; set; }
-        public string Description { get; set; }        
+        public string Description { get; set; }      
+        public DateTime ModifiedDate { get; set; }
     }
 }
