@@ -24,7 +24,7 @@ namespace LinqExamples
             //Shows reading data from csv file
             //Example_4.Tutorial();
 
-            //Shows reading data from csv file
+            //Shows getting top bmw cars in 2016 and using FirstorDefault, also shows ordering, secondary ordering etc.
             Example_5.Tutorial();
 
             Console.ReadLine();
