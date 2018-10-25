@@ -9,7 +9,7 @@ namespace LinqExamples
 {
     public class Example_1
     {
-        public static void Basic()
+        public static void Tutorial()
         {
 
             IEnumerable<Job> jobs = new List<Job>()

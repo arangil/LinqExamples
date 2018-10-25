@@ -9,7 +9,7 @@ namespace LinqExamples
 {
     public class Example_2
     {
-        public static void Basic()
+        public static void Tutorial()
         {
 
             Func<int, int> f = Square;
@@ -21,7 +21,7 @@ namespace LinqExamples
             Func<int, int, int> Add = (x, y) => x + y;
             Console.WriteLine(Add(5,6).ToString());
 
-            Func<double, double> AreaOfCircle = (x) =>
+            Func<double, double> AreaOfCircle = x =>
             {
                 double area = Math.PI * x * x;
                 return area;
@@ -64,6 +64,17 @@ namespace LinqExamples
             {
                 Console.WriteLine(job.Title + ' ' + job.Description);
             }
+
+            var orderedjobs = from j in jobsasvar
+                              where j.Title.StartsWith("A")
+                              orderby j.Title
+                              select j;
+
+            foreach(var j in orderedjobs)
+            {
+                Console.WriteLine(j.Title + ' ' + j.Description);
+            }
+
         }
 
         private static int Square(int arg)

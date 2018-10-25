@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Example 2.cs" />
     <Compile Include="Example 1.cs" />
+    <Compile Include="Example 3.cs" />
     <Compile Include="Models\Job.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
