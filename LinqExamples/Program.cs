@@ -25,7 +25,16 @@ namespace LinqExamples
             //Example_4.Tutorial();
 
             //Shows getting top bmw cars in 2016 and using FirstorDefault, also shows ordering, secondary ordering etc.
-            Example_5.Tutorial();
+            //Example_5.Tutorial();
+
+            //Shows to read from two data sources, join the data and show aggreate restults
+            //Example_6.Tutorial();
+
+            //Join the data with two fields Manufacturer and Year and show aggreate restults
+            //Example_7.Tutorial();
+
+            //shows result ordered by manufactoers name, then the top 2 efficiency cars
+            Example_8.Tutorial();
 
             Console.ReadLine();
         }

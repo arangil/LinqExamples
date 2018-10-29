@@ -48,7 +48,11 @@
     <Compile Include="Example 3.cs" />
     <Compile Include="Example 4.cs" />
     <Compile Include="Example 5.cs" />
+    <Compile Include="Example 6.cs" />
+    <Compile Include="Example 7.cs" />
+    <Compile Include="Example 8.cs" />
     <Compile Include="LinqExtensionMethods\JobsLinqExtensions.cs" />
+    <Compile Include="Models\Manufacturers.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Models\Job.cs" />
     <Compile Include="Program.cs" />
