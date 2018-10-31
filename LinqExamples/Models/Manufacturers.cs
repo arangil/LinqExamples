@@ -10,6 +10,7 @@ namespace LinqExamples.Models
     {
         public string Name { get; set; }
         public string Headquaters { get; set; }
+        public string Country { get; set; }
         public int Year { get; set; }
 
         internal static Manufacturer ParseFromCSV(string line)
@@ -21,6 +22,7 @@ namespace LinqExamples.Models
                 Name = columns[0],
                 Headquaters = columns[1],
                 Year = int.Parse(columns[2]),
+                Country  = columns[1]
             };            
         }
     }

@@ -34,7 +34,13 @@ namespace LinqExamples
             //Example_7.Tutorial();
 
             //shows result ordered by manufactoers name, then the top 2 efficiency cars
-            Example_8.Tutorial();
+            //Example_8.Tutorial();
+
+            //built a cross join class that holds manufacture info and a colllection of cars
+            //Example_9.Tutorial();
+
+            //shows top 3 fuel efficient cars by country
+            Example_10.Tutorial();
 
             Console.ReadLine();
         }
