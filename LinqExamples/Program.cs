@@ -40,7 +40,10 @@ namespace LinqExamples
             //Example_9.Tutorial();
 
             //shows top 3 fuel efficient cars by country
-            Example_10.Tutorial();
+            //Example_10.Tutorial();
+
+            //Gropus the manufactures and gets the Max, Min and Average fuel efficiecy, results are ordered by fuel efficiecny
+            Example_11.Tutorial();
 
             Console.ReadLine();
         }
